@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Dashboard</title>
     <style>
         body {
@@ -12,27 +13,31 @@
             align-items: center;
             height: 100vh;
         }
-        .box {
-            background: #fff;
-            padding: 30px 40px;
-            border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 350px;
             text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
-        h2 {
-            color: #1e3a8a;
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
 
-<div class="box">
-      <h2>Welcome to Dashboard Mr ${name}</h2>
-        <h2> Your email is: ${email}</h2>
-        <h2> Your gender is: ${gender}</h2>
-        <h2> Your address is: ${address}</h2>
-        <h2> Your password is: ${password}</h2>
-    <p>Login successful 🎉</p>
+<div class="card">
+    <img src="${imagePath}">
+    <h2>${name}</h2>
+    <p><b>Email:</b> ${email}</p>
+    <p><b>Gender:</b> ${gender}</p>
+    <p><b>Address:</b> ${address}</p>
 </div>
 
 </body>
