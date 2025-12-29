@@ -253,6 +253,7 @@
         <a href="#">Contact</a>
         <a href="login.jsp"><button class="btn login-btn">Login</button></a>
         <a href="signup.jsp"><button class="btn signup-btn">Sign Up</button></a>
+        <a href="profile.jsp"><button class="btn profile-btn">Profile</button></a>
     </div>
 </header>
 

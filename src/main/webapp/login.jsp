@@ -101,7 +101,7 @@
     <h2>Login</h2>
     <p>Access Fake News Detection System</p>
 
-    <form action ="user" method="POST">
+    <form action ="user?action=login" method="POST">
         <div class="input-group">
             <label>Email</label>
             <input type="email" placeholder="Enter your email" name= "email">
